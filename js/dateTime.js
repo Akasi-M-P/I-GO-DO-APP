@@ -4,11 +4,11 @@ function upDateTime() {
    
 
     const time = now.toLocaleTimeString();
-    document.getElementById("time").textContent = time
+    document.getElementById("time").textContent = time;
 
     const date = now.toLocaleDateString();
     document.getElementById("date").textContent = date;
 }
 
 upDateTime();
-setInterval(upDateTime, 1000)
+setInterval(upDateTime, 1000);
