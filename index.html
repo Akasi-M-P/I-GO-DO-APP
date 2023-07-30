@@ -9,26 +9,25 @@
      <link rel="stylesheet" href="./css/task.css">
 </head>
 <body>
-    <header><div class="profile_img"><h3>IMG</h3></div><div class=" heading"><h3>MY TO DO APP</h3></div><div class="date_time"><h5 id="date">DATE</h5><h5 id="time">TIME</h5></div></header>
-    <div class="input_Details">
+    <header><div class="profile_img"><img src="https://avatars.githubusercontent.com/u/118350559?v=4" alt=""></div><div class=" heading"><h3>I GO DO APP</h3></div><div class="date_time"><h5 id="date">DATE</h5><h5 id="time">TIME</h5></div></header>
+    <div id="form_Container">
+        <form class="todo_Details">
         <label>Task</label>
-        <input type="text" value="" name="task" placeholder="enter task">
+        <input type="text" id="todo_Data" value="" name="task" placeholder="enter task">
         <label>Date</label>
-        <input type="date" title="select date" placeholder="select date">
+        <input type="date" id="date_Data" title="select date" placeholder="select date">
         <label>Time</label>
-        <input type="time" title="select time" placeholder="select time">
-        <button type="submit">ADD</button>
+        <input type="time" id="time_Data" title="select time" placeholder="select time">
+        <button type="submit" id="button_Submit">ADD</button>
+        </form>
+        
     </div>
-    <div id="tasks">
-        <div id="task">
-            <p class="task_details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <h6>Date</h6>
-            <h6>Time</h6>
-            <button>Edit</button>
-            <button>Delete</button>
-
-        </div>
+    <div>
+        <ul id="tasks">
+           
+ </ul>
     </div>
    <script type="text/javascript" src="./js/dateTime.js"></script>
+   <script src="./js/index.js"></script>
 </body>
 </html>
