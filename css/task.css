@@ -7,17 +7,17 @@
         width: 90%;
         margin: 20px 5px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
     .profile_img img {
-        width: 50px;
-        border-radius: 25px;
+        width: 60px;
+        border-radius: 30px;
     }
 
     .heading h3 {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: "Raleway", "Helvetica Neue";
         font-size: 18px;
         text-align: center;
     }
@@ -63,6 +63,27 @@ input {
     font-size: 18px;
     font-weight: bold;
     
+}
+
+
+/* Tasks */
+#tasks  {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+
+#tasks li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Ysabeau Infant";
+    font-size: 20px;
 }
 
 
