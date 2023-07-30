@@ -56,10 +56,13 @@ submit.addEventListener("click", function (e) {
 
     // Create a <span> element to display the task details (description, date, and time)
     const todo_Details = document.createElement("span");
-    todo_Details.textContent = `${userTask} ${date_Data} ${time_Data}`;
+    const time_Date = document.createElement("span");
+    todo_Details.textContent = `${userTask}`;
+    time_Date.textContent = ` ${date_Data} ${time_Data}`;
 
     // Append the <span> element to the <li> element
     taskItem.appendChild(todo_Details);
+    taskItem.appendChild(time_Date);
 
     // Append the "Delete" and "Edit" buttons to the <li> element
     taskItem.appendChild(delete_Button);

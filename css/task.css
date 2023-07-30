@@ -77,6 +77,12 @@ input {
     padding: 0;
 }
 
+#tasks span {
+    background-color: yellow;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
 
 #tasks li {
     display: flex;
@@ -84,6 +90,7 @@ input {
     justify-content: space-between;
     font-family: "Ysabeau Infant";
     font-size: 20px;
+    border: 5px solid red;
 }
 
 
