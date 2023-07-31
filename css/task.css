@@ -82,7 +82,6 @@ input {
 }
 
 #tasks span {
-    height: 50px;
     display: flex;
 }
 
@@ -97,7 +96,7 @@ input {
     border: 1px solid #6f6d6d;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding: 5px;
-    height: 180px;
+    height: 100%;
 }
 
 
