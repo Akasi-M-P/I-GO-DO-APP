@@ -59,6 +59,7 @@ submit.addEventListener("click", function (e) {
     const time_Date = document.createElement("span");
     todo_Details.textContent = `${userTask}`;
     time_Date.textContent = ` ${date_Data} ${time_Data}`;
+    time_Date.classList.add("date_time");
 
     // Append the <span> element to the <li> element
     taskItem.appendChild(todo_Details);

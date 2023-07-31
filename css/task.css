@@ -68,7 +68,7 @@ input {
 
 /* Tasks */
 #tasks  {
-    background-color: aqua;
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -78,9 +78,8 @@ input {
 }
 
 #tasks span {
-    background-color: yellow;
-    /* display: flex;
-    justify-content: space-between; */
+    height: 50px;
+    display: flex;
 }
 
 
@@ -90,7 +89,19 @@ input {
     justify-content: space-between;
     font-family: "Ysabeau Infant";
     font-size: 20px;
-    border: 5px solid red;
+    border-radius: 5px;
+    border: 1px solid #6f6d6d;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 2px;
+    height: 180px;
+}
+
+
+.date_time {
+    font-size: 12px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
