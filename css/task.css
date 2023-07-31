@@ -56,7 +56,7 @@ input {
     height: 40px;
     font-family: "Ysabeau Infant";
     font-size: 16px;
-    padding: 5px;
+   
 }
 
 #button_Submit {
@@ -66,7 +66,7 @@ input {
     font-family: "Ysabeau Infant";
     font-size: 18px;
     font-weight: bold;
-    
+    margin: auto;
 }
 
 
@@ -110,34 +110,35 @@ input {
 }
 
 button {
-     background-color: #f8f9fa;
-  border: 1px solid #343739;
-  border-radius: 4px;
-  color: #3c4043;
-  cursor: pointer;
-  font-family: arial,sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  height: 36px;
-  line-height: 27px;
-  min-width: 54px;
-  padding: 0 16px;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: pre;
-  font-family: "Ysabeau Infant";
+    background-color: #f8f9fa;
+    border: 1px solid #343739;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    font-family: "Ysabeau Infant";
+    outline: none;
 }
 
 button:hover {
   border-color: #dadce0;
-  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px;
   color: #202124;
 }
 
 button:focus {
-  border-color: #4285f4;
+  border-color: #d4d8de;
   outline: none;
 }
 
