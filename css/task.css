@@ -21,7 +21,7 @@ body {
     }
 
     .heading h3 {
-        font-family: "Raleway", "Helvetica Neue";
+        font-family:"Ysabeau Infant";
         font-size: 18px;
         text-align: center;
     }
@@ -50,24 +50,28 @@ label {
     font-family: "Ysabeau Infant";
     font-size: 20px;
     font-weight: bold;
+    margin-left: 20px;
 }
 
 input {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 40px;
     font-family: "Ysabeau Infant";
     font-size: 16px;
+    border-radius: 8px;
+    padding: 5px;
    
 }
 
 #button_Submit {
-    width: 100%;
+    width: 80%;
     height: 40px;
     margin: auto;
     font-family: "Ysabeau Infant";
     font-size: 18px;
     font-weight: bold;
-    margin: auto;
+    margin: 10px auto;
 }
 
 
@@ -93,6 +97,7 @@ input {
     justify-content: space-between;
     font-family: "Ysabeau Infant";
     font-size: 20px;
+    background-color: #272829;
     border-radius: 5px;
     border: 1px solid #6f6d6d;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
