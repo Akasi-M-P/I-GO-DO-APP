@@ -68,6 +68,14 @@ input {
     height: 10px;
 }
 
+#date_Data {
+    height: 10px;
+}
+
+#time_Data {
+    height: 10px;
+}
+
 
 
 #button_Submit {
