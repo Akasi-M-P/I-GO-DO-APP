@@ -64,6 +64,10 @@ input {
    
 }
 
+input:focus{
+    outline: none;
+}
+
 #todo_Data {
     height: 10px;
 }
