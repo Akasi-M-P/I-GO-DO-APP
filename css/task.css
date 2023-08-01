@@ -54,7 +54,7 @@ label {
 }
 
 input {
-    width: 80%;
+    width: 85%;
     margin: auto;
     height: 40px;
     font-family: "Ysabeau Infant";
@@ -64,14 +64,22 @@ input {
    
 }
 
+#todo_Data {
+    height: 10px;
+}
+
+
+
 #button_Submit {
     width: 80%;
-    height: 100px;
+    height: 200px;
     margin: auto;
     font-family: "Ysabeau Infant";
     font-size: 18px;
     font-weight: bold;
     margin: 1em auto ;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
